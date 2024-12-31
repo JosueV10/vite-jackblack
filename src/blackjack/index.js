@@ -1,8 +1,5 @@
 import _ from 'underscore';
-
 import { crearDeck, pedirCarta, valorCarta, turnoComputadora, crearCartaHtml } from './usecases';
-
-
 
 /**
  * 2C = Two of Clubs
@@ -30,8 +27,6 @@ const puntosHTML = document.querySelectorAll('small');
 
 
 deck = crearDeck(tipos, especiales);
-
-
 
 // Eventos
 btnPedir.addEventListener('click', () => {
